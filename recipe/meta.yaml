@@ -1,5 +1,5 @@
 {% set name = "json-schema-to-pydantic" %}
-{% set version = "0.4.8" %}
+{% set version = "0.4.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/json_schema_to_pydantic-{{ version }}.tar.gz
-  sha256: fba739dba6d94845017dc8416410f9a220944d233d55d8f4e61bf03a200ce45d
+  sha256: f71bc57c9016a6cecaf259392b4a3f35a34ad79da3934a64d21d73f526c6e28d
 
 build:
   noarch: python
