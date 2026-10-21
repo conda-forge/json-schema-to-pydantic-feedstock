@@ -32,7 +32,9 @@ tests:
       imports:
         - json_schema_to_pydantic
       pip_check: true
-      python_version: ${{ python_min }}
+      python_version:
+        - ${{ python_min }}
+        - "*"
 
 about:
   summary: A Python library for automatically generating Pydantic v2 models from JSON Schema definitions
